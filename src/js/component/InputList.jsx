@@ -1,4 +1,3 @@
-//Import REACT, HOOKS and PROPTYPES
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import Items from "./Items.jsx";
@@ -27,8 +26,7 @@ const InputList = props => {
 		deleteItem.splice(item, 1);
 		setList(deleteItem);
 	};
-	//Returns the component using the Input property and adds the list of tasks using the Map method.
-
+	
 	return (
 		<>
 			<div className="container ">
@@ -75,7 +73,6 @@ const InputList = props => {
 	);
 };
 
-//Proptypes validation
 InputList.propTypes = {
 	placeholder: PropTypes.string
 };

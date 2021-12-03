@@ -13,5 +13,5 @@ import "../styles/InputList.scss";
 import Inputlist from "./component/InputList.jsx";
 import Items from "./component/Items.jsx";
 
-//render your react application
+//Render the react application
 ReactDOM.render(<Inputlist />, document.querySelector("#app"));

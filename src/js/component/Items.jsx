@@ -1,8 +1,6 @@
-//Import REACT and PROPTYPES
 import React from "react";
 import PropTypes from "prop-types";
 
-//Component for added elements
 const Items = props => {
 	return (
 		<div className="p-3">
@@ -11,7 +9,6 @@ const Items = props => {
 	);
 };
 
-//Proptypes validation
 Items.propTypes = {
 	name: PropTypes.string
 };
